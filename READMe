@@ -1,0 +1,58 @@
+# Weather App MVP Development
+
+This repository contains the code and documentation for the Weather Application Minimum Viable Product (MVP). The app is designed to provide real-time weather updates for specific locations, leveraging Python and the OpenWeatherMap API.
+
+---
+
+## **MoSCoW Prioritization**
+
+### **Must-Haves**
+- Display current weather data for a user-specified location.
+- Use OpenWeatherMap API to fetch weather information.
+- Input validation to handle invalid city names.
+- Simple and user-friendly graphical user interface (GUI) using `tkinter`.
+
+### **Should-Haves**
+- Error handling for network issues and failed API calls.
+- Display additional weather details like humidity and wind speed.
+- Responsive design for cross-platform compatibility.
+
+### **Could-Haves**
+- Option to save favorite cities for quick access.
+- Multi-language support for international users.
+- Temperature unit toggle (Celsius/Fahrenheit).
+- Integration with other weather APIs for redundancy.
+
+### **Won’t-Haves**
+- Advanced analytics or weather predictions.
+- Complex graphical designs or animations.
+- Offline functionality.
+
+---
+
+## **Project Task Management**
+
+### **To Do**
+- Implement the input field for user-specified city names.
+- Set up API calls to fetch weather data dynamically.
+- Validate user inputs for errors (e.g., invalid city names).
+- Document project setup and API integration steps.
+
+### **In Progress**
+- Debugging lag issues during API data retrieval.
+- Enhancing error messages for better user feedback.
+- Improving the responsiveness of the GUI.
+
+### **Done**
+- Integrated OpenWeatherMap API with API key for data retrieval.
+- Created a basic Python application using `tkinter`.
+- Designed a modular architecture for easy scalability.
+- Added documentation for setup, usage, and known limitations.
+
+---
+
+## **Setup Instructions**
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
